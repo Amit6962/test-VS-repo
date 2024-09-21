@@ -1,0 +1,38 @@
+{
+  "customers": [
+    {
+      "accountNumber": "123456789",
+      "jointAccountHolders": [
+        {
+          "name": "John Doe",
+          "email": "john.doe@example.com",
+          "mobile": "1234567890",
+          "relationshipStatus": "Spouse"
+        },
+        {
+          "name": "Jane Smith",
+          "email": "jane.smith@example.com",
+          "mobile": "0987654321",
+          "relationshipStatus": "Parent"
+        }
+      ]
+    },
+    {
+      "accountNumber": "987654321",
+      "jointAccountHolders": [
+        {
+          "name": "Alice Johnson",
+          "email": "alice.johnson@example.com",
+          "mobile": "1112223333",
+          "relationshipStatus": "Sibling"
+        },
+        {
+          "name": "Bob Johnson",
+          "email": "bob.johnson@example.com",
+          "mobile": "4445556666",
+          "relationshipStatus": "Parent"
+        }
+      ]
+    }
+  ]
+}
