@@ -42,13 +42,13 @@ function App() {
     <>
       <h1>Amit</h1>
       <CustomerDetails />
-      {/* <FetchApi />
+      <FetchApi />
       <SampleForm onData={handleChildData} />
       <button onClick={handleFormData}>save Form data</button>
       <h2>{id}</h2>
       <h2>{title}</h2>
       <h2>{body}</h2>
-      <h2>{userId}</h2> */}
+      <h2>{userId}</h2>
     </>
   );
 }
