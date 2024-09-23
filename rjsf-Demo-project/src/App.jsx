@@ -3,6 +3,9 @@ import { useEffect, useState } from "react";
 import FetchApi from "./components/fetchApi";
 import SampleForm from "./components/sampleForm";
 import CustomerDetails from "./components/CustomerDetails";
+import UseReducerExample from "./components/UseReducerExample";
+import CounterTwo from "./components/CounterTwo";
+import MultiFieldForm from "./components/MultiFieldForm";
 
 function App() {
   // const [childData, setChildData] = useState();
@@ -41,7 +44,10 @@ function App() {
   return (
     <>
       <h1>Amit</h1>
-      <CustomerDetails />
+      <MultiFieldForm />
+      {/* <CounterTwo /> */}
+      {/* <UseReducerExample /> */}
+      {/* <CustomerDetails /> */}
       {/* <FetchApi />
       <SampleForm onData={handleChildData} />
       <button onClick={handleFormData}>save Form data</button>
